@@ -1,12 +1,4 @@
-﻿using System;
-
-namespace CalculoMediaComConceito
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Calculadora de Média e Conceito");
+﻿    Console.WriteLine("Calculadora de Média e Conceito");
 
             Console.Write("Quantos números deseja calcular a média? ");
             int quantidadeNumeros = int.Parse(Console.ReadLine());
@@ -38,6 +30,6 @@ namespace CalculoMediaComConceito
             }
 
             Console.ReadLine();
-        }
-    }
-}
+        
+    
+

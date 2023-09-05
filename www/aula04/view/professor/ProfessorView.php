@@ -1,4 +1,4 @@
-<?php $listaEstudantes = $_REQUEST["estudantes"]; ?>
+<?php $listaProfessores = $_REQUEST["professores"]; ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -28,7 +28,7 @@
 
   </div>
   <br>
-  <a href="/<?php echo FOLDER; ?>/?controller=Estudante&acao=salvar" class="btn btn-success">Cadastrar Estudante</a>
+  <a href="/<?php echo FOLDER; ?>/?controller=Professor&acao=salvar" class="btn btn-success">Cadastrar Professor</a>
   <br>
   <br>
 
@@ -43,15 +43,15 @@
       </tr>
     </thead>
     <tbody>
-      <?php foreach ($listaEstudantes as $estudante) { ?>
+      <?php foreach ($listaProfessores as $professor) { ?>
         <tr>
 
           <td>
-            <?php echo $estudante["id"]; ?></td>
-          <td> <?php echo $estudante["nome"]; ?> </td>
-          <td> <?php echo $estudante["idade"]; ?> </td>
-            <td> <a href="/<?php echo FOLDER; ?>/?controller=Estudante&acao=editar&id=<?php echo $estudante['id'];?>"class="btn btn-primary">Editar</a> </td>
-            <td> <a href="/<?php echo FOLDER; ?>/?controller=Estudante&acao=excluir&id=<?php echo $estudante['id'];?>"class="btn btn-primary">Excluir</a> </td>
+            <?php echo $professor["id"]; ?></td>
+          <td> <?php echo $professor["nome"]; ?> </td>
+          <td> <?php echo $professor["idade"]; ?> </td>
+            <td> <a href="/<?php echo FOLDER; ?>/?controller=Professor&acao=editar&id=<?php echo $professor['id'];?>"class="btn btn-primary">Editar</a> </td>
+            <td> <a href="/<?php echo FOLDER; ?>/?controller=Professor&acao=excluir&id=<?php echo $professor['id'];?>"class="btn btn-primary">Excluir</a> </td>
 
         
         </tr>

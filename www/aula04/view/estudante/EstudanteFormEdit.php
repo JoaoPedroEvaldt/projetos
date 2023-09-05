@@ -1,3 +1,7 @@
+
+<?php $estudante = $_REQUEST["estudante"]; ?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -16,16 +20,16 @@
 
 
     <div class="container">
-        <form method="POST" action="/<?php echo FOLDER; ?>/?controller=Estudante&acao=salvar">
+        <form method="POST" action="/<?php echo FOLDER; ?>/?controller=Estudante&acao=editar&id=<?php echo $estudante ["id"]; ?>">  
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" name="nome">
+                <input type="text" class="form-control" id="nome" name="nome"value="<?php echo $estudante ["nome"];?>">
             </div>
             <div class="mb-3">
                 <label for="idade" class="form-label">Idade</label>
-                <input type="number" class="form-control" id="idade" name="idade">
+                <input type="number" class="form-control" id="idade" name="idade" value="<?php echo $estudante ["idade"];?>">
             </div>
-            <button type="submit" class="btn btn-primary">Salvar</button>
+            <button type="submit" class="btn btn-primary">Editar</button>
         </form>
     </div>
 </body>
