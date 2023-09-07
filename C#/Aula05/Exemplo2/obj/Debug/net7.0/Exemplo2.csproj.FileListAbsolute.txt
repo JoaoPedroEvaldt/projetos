@@ -1,0 +1,14 @@
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\bin\Debug\net7.0\Exemplo2.exe
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\bin\Debug\net7.0\Exemplo2.deps.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\bin\Debug\net7.0\Exemplo2.runtimeconfig.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\bin\Debug\net7.0\Exemplo2.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\bin\Debug\net7.0\Exemplo2.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.AssemblyInfoInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.AssemblyInfo.cs
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\refint\Exemplo2.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\Exemplo2.genruntimeconfig.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05\Exemplo2\obj\Debug\net7.0\ref\Exemplo2.dll

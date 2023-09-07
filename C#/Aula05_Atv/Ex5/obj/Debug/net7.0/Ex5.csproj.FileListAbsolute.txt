@@ -1,0 +1,14 @@
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\bin\Debug\net7.0\Ex5.exe
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\bin\Debug\net7.0\Ex5.deps.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\bin\Debug\net7.0\Ex5.runtimeconfig.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\bin\Debug\net7.0\Ex5.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\bin\Debug\net7.0\Ex5.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.AssemblyInfoInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.AssemblyInfo.cs
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\refint\Ex5.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\Ex5.genruntimeconfig.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula05_Atv\Ex5\obj\Debug\net7.0\ref\Ex5.dll

@@ -1,0 +1,15 @@
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\bin\Debug\net7.0\tipoIntegral.exe
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\bin\Debug\net7.0\tipoIntegral.deps.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\bin\Debug\net7.0\tipoIntegral.runtimeconfig.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\bin\Debug\net7.0\tipoIntegral.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\bin\Debug\net7.0\tipoIntegral.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.csproj.AssemblyReference.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.AssemblyInfoInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.AssemblyInfo.cs
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\refint\tipoIntegral.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\tipoIntegral.genruntimeconfig.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\tipoIntegral\obj\Debug\net7.0\ref\tipoIntegral.dll

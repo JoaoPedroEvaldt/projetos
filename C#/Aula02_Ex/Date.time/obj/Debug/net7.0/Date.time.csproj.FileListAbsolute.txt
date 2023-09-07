@@ -1,0 +1,15 @@
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\bin\Debug\net7.0\Date.time.exe
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\bin\Debug\net7.0\Date.time.deps.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\bin\Debug\net7.0\Date.time.runtimeconfig.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\bin\Debug\net7.0\Date.time.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\bin\Debug\net7.0\Date.time.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.csproj.AssemblyReference.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.AssemblyInfoInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.AssemblyInfo.cs
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\refint\Date.time.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\Date.time.genruntimeconfig.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Date.time\obj\Debug\net7.0\ref\Date.time.dll

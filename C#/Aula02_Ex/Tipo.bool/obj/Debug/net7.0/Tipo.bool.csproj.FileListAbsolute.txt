@@ -1,0 +1,15 @@
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\bin\Debug\net7.0\Tipo.bool.exe
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\bin\Debug\net7.0\Tipo.bool.deps.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\bin\Debug\net7.0\Tipo.bool.runtimeconfig.json
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\bin\Debug\net7.0\Tipo.bool.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\bin\Debug\net7.0\Tipo.bool.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.csproj.AssemblyReference.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.AssemblyInfoInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.AssemblyInfo.cs
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.csproj.CoreCompileInputs.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\refint\Tipo.bool.dll
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.pdb
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\Tipo.bool.genruntimeconfig.cache
+C:\Users\Anderson\Desktop\ULBRA\SEMESTRE_2023_02\Lab_Programacao\Aula02\Tipo.bool\obj\Debug\net7.0\ref\Tipo.bool.dll
