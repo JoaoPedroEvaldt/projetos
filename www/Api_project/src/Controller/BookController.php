@@ -31,7 +31,17 @@ class BookController extends AbstractController
         $em->persist($book);
         $em->flush();
         return $this->json("Saved");
+    }
+    #[Route('/delete/{id}', name: 'delete_book', methods:['DELETE'] )]
+    public function removeBook(EntityManagerInterface $em,int $id )
+    {
 
+        $bookRepository = $em->getRepository(Book::class);
+        $book = $bookRepository->find($id);
+        $em->remove($book);  
+        $em->flush();
+            
 
     }
-}
+
+} 

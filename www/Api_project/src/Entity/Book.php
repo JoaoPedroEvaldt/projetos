@@ -67,6 +67,9 @@ class Book implements JsonSerializable
     {
         return[
             "id" =>$this->getId(),
+            "name" => $this->getName(),
+            "author" => $this->getAuthor(),
+            "sinopse" => $this->getSinopse(),
         ];
     }
 }
