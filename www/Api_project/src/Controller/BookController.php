@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Author;
 use App\Entity\Book;
 use App\Repository\BookRepository;
 use Doctrine\ORM\EntityManagerInterface;
@@ -21,9 +22,11 @@ class BookController extends AbstractController
     {
         
         $book = new Book();
+        $authorRepository = $em->getRepository(Author::class);
         $parameters = json_decode($request->getContent(), true);
+        $author = $authorRepository->find($parameters["author"]);
         $book->setName($parameters["name"]);
-        $book->setAuthor($parameters["author"]);
+        $book->setAuthor($author);
         $book->setSinopse($parameters["sinopse"]);
         $em->persist($book);
         $em->flush();

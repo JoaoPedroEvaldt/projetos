@@ -17,11 +17,14 @@ class Book implements JsonSerializable
     #[ORM\Column(length: 255)]
     private ?string $name = null;
 
-    #[ORM\Column(length: 255)]
-    private ?string $author = null;
+   
 
     #[ORM\Column(length: 2000)]
     private ?string $sinopse = null;
+
+    #[ORM\ManyToOne(targetEntity: Author::class)]
+    #[ORM\JoinColumn(name: 'author_id', referencedColumnName: 'id')]
+    private Author|null $author = null;
 
     public function getId(): ?int
     {
@@ -40,12 +43,12 @@ class Book implements JsonSerializable
         return $this;
     }
 
-    public function getAuthor(): ?string
+    public function getAuthor(): ?Author
     {
         return $this->author;
     }
 
-    public function setAuthor(string $author): static
+    public function setAuthor(Author $author): static
     {
         $this->author = $author;
 
@@ -68,8 +71,9 @@ class Book implements JsonSerializable
         return[
             "id" =>$this->getId(),
             "name" => $this->getName(),
-            "author" => $this->getAuthor(),
             "sinopse" => $this->getSinopse(),
+            "author" => $this->getAuthor() ? $this->getAuthor()->getName() : null,
+            
         ];
     }
 }

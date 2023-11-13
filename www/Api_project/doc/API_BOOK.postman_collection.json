@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "2e0e50f8-84fb-42cc-beaf-9ca023e7a708",
+		"name": "API_BOOK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30203446"
+	},
+	"item": [
+		{
+			"name": "BOOK",
+			"item": [
+				{
+					"name": "GET_ALL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/book/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/book/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"book",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "SAVE",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"João\",\r\n    \"author\": \"Pedro\",\r\n    \"sinopse\":\"Programação Web\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/book/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"book",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EDIT_BOOK",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"João\",\r\n    \"author\": \"Pedro\",\r\n    \"sinopse\":\"Programação\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/book/4",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"book",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AUTHOR",
+			"item": [
+				{
+					"name": "NEW_AUTHOR",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"João\",\r\n    \"birthday\": \"2013-07-16T19:23:00-03:00\"\r\n    \r\n\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/author/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"author",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
