@@ -6,9 +6,10 @@ use App\Repository\OwnerRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use JsonSerializable;
 
 #[ORM\Entity(repositoryClass: OwnerRepository::class)]
-class Owner
+class Owner implements JsonSerializable
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -87,4 +88,17 @@ class Owner
 
         return $this;
     }
+    
+    public function JsonSerialize(): mixed
+    {
+        return[
+            "id" =>$this->getId(),
+            "name" => $this->getName(),
+            "nickname" => $this->getNickname(),
+        
+            
+        ];
+    }
 }
+
+
