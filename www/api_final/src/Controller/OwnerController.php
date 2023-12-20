@@ -23,7 +23,6 @@ class OwnerController extends AbstractController
         $owner->setNickname($parameters["nickname"]);
         $em->persist($owner);
         $em->flush();
-       
         return $this->json("Saved Owner");
            
     }

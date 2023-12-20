@@ -3,10 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Author;
-use App\Entity\Book;
 use App\Repository\AuthorRepository;
-use App\Repository\BookRepository;
-use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
@@ -15,6 +12,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 #[Route('/author')]
 class AuthorController extends AbstractController
+
 {
    
 
@@ -23,10 +21,11 @@ class AuthorController extends AbstractController
     {
         
         $author = new Author();
+        $authorRepository = $em->getRepository(Author::class);
         $parameters = json_decode($request->getContent(), true);
-        $author->setName($parameters["name"]);
-        $date = DateTime::createFromFormat(DateTime::ATOM, $parameters["birthday"]);
-        $author->setBirthDay($date);
+        $author = $authorRepository->find($parameters["author"]);
+        $author->setTitle($parameters["title"]);
+        $author->setDescription($parameters["description"]);
         $em->persist($author);
         $em->flush();
         return $this->json("Saved");
@@ -38,28 +37,12 @@ class AuthorController extends AbstractController
         return $this->json($authors);
         
     }
-    #[Route('/{id}', name: 'delete_author', methods:['DELETE'] )]
-    public function removeAuthor(EntityManagerInterface $em,int $id )
+    
+
+    #[Route('//{id}', name: 'edit_author', methods: ['PUT'] )]
+    public function edit(EntityManagerInterface $em, Request $request, int $id)
     {
-
-        $authorRepository = $em->getRepository(Author::class);
-        $author  = $authorRepository->find($id);
-        if ( is_null($authorRepository)){
-            return $this->json("Author Already Delete");
-
-
-        }
-        $em->remove($author);  
-        $em->flush();
-        return $this->json("Deleted");
-
-    }
-
-
-     #[Route('//{id}', name: 'edit_book', methods: ['PUT'] )]
-     public function edit(EntityManagerInterface $em, Request $request, int $id)
-     {
-        $bookRepository = $em->getRepository(Book::class);
+        $bookRepository = $em->getRepository(Author::class);
         $book = $bookRepository->find($id);
 
    
@@ -69,8 +52,22 @@ class AuthorController extends AbstractController
         $book->setSinopse($parameters["sinopse"]);
         $em->persist($book);
         $em->flush();
-         return $this->json("Saved");
+        return $this->json("Saved");
     }
- 
+    #[Route('/{id}', name: 'delete_author', methods:['DELETE'] )]
+    public function removeBook(EntityManagerInterface $em,int $id )
+    {
 
- }
+        $authorRepository = $em->getRepository(Author::class);
+        $author = $authorRepository->find($id);
+        if ( is_null($author)){
+            return $this->json("Book Already Deleted");
+
+        }
+
+        $em->remove($author);  
+        $em->flush();
+        return $this->json("Deleted");
+
+    }
+} 

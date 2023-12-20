@@ -28,8 +28,7 @@ class CarController extends AbstractController
         $em->flush();
        
         return $this->json("Saved Car");
-           
-    }
+            }
    
     #[Route('/', name: 'get_all_cars')]
     
